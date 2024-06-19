@@ -1,0 +1,17 @@
+export default {
+  'component.globalHeader.search': 'サイト内検索',
+  'component.globalHeader.search.example1': '検索ヒント１',
+  'component.globalHeader.search.example2': '検索ヒント２',
+  'component.globalHeader.search.example3': '検索ヒント３',
+  'component.globalHeader.help': 'ヘルプ',
+  'component.globalHeader.notification': '通知',
+  'component.globalHeader.notification.empty': '你已查看所有通知',
+  'component.globalHeader.message': 'メッセージ',
+  'component.globalHeader.message.empty': '您已读完所有消息',
+  'component.globalHeader.event': 'イベント',
+  'component.globalHeader.event.empty': '你已完成所有待办',
+  'component.noticeIcon.clear': 'クリア',
+  'component.noticeIcon.cleared': 'クリアした',
+  'component.noticeIcon.empty': '新しい通知はまだありません',
+  'component.noticeIcon.view-more': 'もっと見る',
+};

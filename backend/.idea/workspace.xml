@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d6f6305-6304-4b16-a7f2-843e810d30f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/enums/ResponseEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/enums/ResponseEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esbteam/fleamarket/vo/UserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esbteam/fleamarket/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/esbteam/fleamarket/service/impl/UserServiceImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1eeZZGqVrSIsMaPa3mDyOjsNblz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="com.esbteam.fleamarket.FleamarketApplicationTests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.esbteam.fleamarket.service.impl" />
+      <recent name="com.esbteam.fleamarket.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="com.esbteam.fleamarket.FleamarketApplicationTests" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FleamarketApplication">
+    <configuration name="ShippingServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fleamarket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esbteam.fleamarket.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esbteam.fleamarket.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.esbteam.fleamarket.service.impl.ShippingServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShippingServiceImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fleamarket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esbteam.fleamarket.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esbteam.fleamarket.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.esbteam.fleamarket.service.impl.ShippingServiceImplTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShippingServiceImplTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fleamarket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esbteam.fleamarket.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esbteam.fleamarket.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.esbteam.fleamarket.service.impl.ShippingServiceImplTest" />
+      <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShippingServiceImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fleamarket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esbteam.fleamarket.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esbteam.fleamarket.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.esbteam.fleamarket.service.impl.ShippingServiceImplTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fleamarket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esbteam.fleamarket.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esbteam.fleamarket.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.esbteam.fleamarket.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="register" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FleamarketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fleamarket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esbteam.fleamarket.FleamarketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceImplTest.register" />
+        <item itemvalue="JUnit.ShippingServiceImplTest" />
+        <item itemvalue="JUnit.ShippingServiceImplTest.delete" />
+        <item itemvalue="JUnit.ShippingServiceImplTest.list" />
+        <item itemvalue="JUnit.ShippingServiceImplTest.update" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d6f6305-6304-4b16-a7f2-843e810d30f4" name="Default Changelist" comment="" />
+      <created>1594684072294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594684072294</updated>
+      <workItem from="1594684075976" duration="88000" />
+      <workItem from="1594685138608" duration="14537000" />
+      <workItem from="1594754700525" duration="2000" />
+      <workItem from="1594767016772" duration="4000" />
+      <workItem from="1594767132822" duration="2000" />
+      <workItem from="1594767330372" duration="12582000" />
+      <workItem from="1594838329394" duration="1401000" />
+      <workItem from="1594951468387" duration="4629000" />
+      <workItem from="1595013635499" duration="5962000" />
+      <workItem from="1595089452618" duration="715000" />
+      <workItem from="1595190237837" duration="1305000" />
+      <workItem from="1595206701221" duration="4318000" />
+      <workItem from="1595270204659" duration="12000" />
+      <workItem from="1595270252760" duration="2777000" />
+      <workItem from="1595404512876" duration="729000" />
+      <workItem from="1595458261961" duration="904000" />
+      <workItem from="1596267748736" duration="10000" />
+      <workItem from="1596669655248" duration="5428000" />
+      <workItem from="1596860128279" duration="2716000" />
+      <workItem from="1596946643693" duration="14250000" />
+      <workItem from="1597087638782" duration="11360000" />
+      <workItem from="1597163494321" duration="7332000" />
+      <workItem from="1597251011085" duration="3310000" />
+      <workItem from="1597261924679" duration="2748000" />
+      <workItem from="1597427835057" duration="13072000" />
+      <workItem from="1597512767370" duration="877000" />
+      <workItem from="1597516650776" duration="6047000" />
+      <workItem from="1597540437400" duration="142000" />
+      <workItem from="1597598621334" duration="1252000" />
+      <workItem from="1597620668500" duration="2556000" />
+      <workItem from="1597682933712" duration="1765000" />
+      <workItem from="1598912553785" duration="873000" />
+      <workItem from="1599018710349" duration="1510000" />
+      <workItem from="1599070044751" duration="199000" />
+      <workItem from="1600107224277" duration="4715000" />
+      <workItem from="1600212117047" duration="87000" />
+      <workItem from="1603486160501" duration="791000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1598913438020">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="653" y="217" key="#com.intellij.ide.util.MemberChooser/-131.-1057.1920.1057/0.23.1680.956@0.23.1680.956" timestamp="1596670464124" />
+    <state x="653" y="217" key="#com.intellij.ide.util.MemberChooser/-131.-1057.1920.1057/0.23.1680.960@0.23.1680.960" timestamp="1594951884666" />
+    <state x="653" y="217" key="#com.intellij.ide.util.MemberChooser/-131.-1057.1920.1057/0.23.1680.961@0.23.1680.961" timestamp="1594953893120" />
+    <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser/-131.-1057.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1595016270185" />
+    <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser/-131.-1057.1920.1057/0.23.1680.965@0.23.1680.965" timestamp="1594704967326" />
+    <state x="653" y="217" key="#com.intellij.ide.util.MemberChooser/0.23.1680.956@0.23.1680.956" timestamp="1598913438020" />
+    <state x="604" y="204" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594957210210">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="604" y="204" key="#com.intellij.ide.util.TreeClassChooserDialog/-131.-1057.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1594957210210" />
+    <state x="409" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594706330306">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state x="409" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-131.-1057.1920.1057/0.23.1680.965@0.23.1680.965" timestamp="1594706330306" />
+    <state width="1638" height="292" key="GridCell.Tab.0.bottom" timestamp="1597197521896">
+      <screen x="-131" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="292" key="GridCell.Tab.0.bottom/-131.-1057.1920.1057/0.23.1680.956@0.23.1680.956" timestamp="1596676594014" />
+    <state width="1638" height="292" key="GridCell.Tab.0.bottom/-131.-1057.1920.1057/0.23.1680.958@-131.-1057.1920.1057" timestamp="1597186306761" />
+    <state width="1638" height="158" key="GridCell.Tab.0.bottom/-131.-1057.1920.1057/0.23.1680.958@0.23.1680.958" timestamp="1595458360795" />
+    <state width="1638" height="292" key="GridCell.Tab.0.bottom/-131.-1057.1920.1057/0.23.1680.960@-131.-1057.1920.1057" timestamp="1597197521896" />
+    <state width="1638" height="158" key="GridCell.Tab.0.bottom/-131.-1057.1920.1057/0.23.1680.960@0.23.1680.960" timestamp="1595288523901" />
+    <state width="1638" height="74" key="GridCell.Tab.0.bottom/-131.-1057.1920.1057/0.23.1680.961@0.23.1680.961" timestamp="1595022681394" />
+    <state width="1638" height="153" key="GridCell.Tab.0.bottom/-131.-1057.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1595025126680" />
+    <state width="1638" height="162" key="GridCell.Tab.0.bottom/-131.-1057.1920.1057/0.23.1680.965@0.23.1680.965" timestamp="1594779194940" />
+    <state width="1638" height="257" key="GridCell.Tab.0.bottom/-131.-1057.1920.1057/0.23.1680.966@0.23.1680.966" timestamp="1594708694429" />
+    <state width="1638" height="257" key="GridCell.Tab.0.bottom/-131.-1057.1920.1057/0.23.1680.967@0.23.1680.967" timestamp="1594708079734" />
+    <state width="1638" height="158" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1595459204646" />
+    <state width="1638" height="258" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1594684163853" />
+    <state width="1638" height="292" key="GridCell.Tab.0.center" timestamp="1597197521895">
+      <screen x="-131" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="292" key="GridCell.Tab.0.center/-131.-1057.1920.1057/0.23.1680.956@0.23.1680.956" timestamp="1596676594013" />
+    <state width="1638" height="292" key="GridCell.Tab.0.center/-131.-1057.1920.1057/0.23.1680.958@-131.-1057.1920.1057" timestamp="1597186306760" />
+    <state width="1638" height="158" key="GridCell.Tab.0.center/-131.-1057.1920.1057/0.23.1680.958@0.23.1680.958" timestamp="1595458360794" />
+    <state width="1638" height="292" key="GridCell.Tab.0.center/-131.-1057.1920.1057/0.23.1680.960@-131.-1057.1920.1057" timestamp="1597197521895" />
+    <state width="1638" height="158" key="GridCell.Tab.0.center/-131.-1057.1920.1057/0.23.1680.960@0.23.1680.960" timestamp="1595288523900" />
+    <state width="1638" height="74" key="GridCell.Tab.0.center/-131.-1057.1920.1057/0.23.1680.961@0.23.1680.961" timestamp="1595022681393" />
+    <state width="1638" height="153" key="GridCell.Tab.0.center/-131.-1057.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1595025126679" />
+    <state width="1638" height="162" key="GridCell.Tab.0.center/-131.-1057.1920.1057/0.23.1680.965@0.23.1680.965" timestamp="1594779194939" />
+    <state width="1638" height="257" key="GridCell.Tab.0.center/-131.-1057.1920.1057/0.23.1680.966@0.23.1680.966" timestamp="1594708694428" />
+    <state width="1638" height="257" key="GridCell.Tab.0.center/-131.-1057.1920.1057/0.23.1680.967@0.23.1680.967" timestamp="1594708079733" />
+    <state width="1638" height="158" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1595459204646" />
+    <state width="1638" height="258" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1594684163853" />
+    <state width="1638" height="292" key="GridCell.Tab.0.left" timestamp="1597197521894">
+      <screen x="-131" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="292" key="GridCell.Tab.0.left/-131.-1057.1920.1057/0.23.1680.956@0.23.1680.956" timestamp="1596676594013" />
+    <state width="1638" height="292" key="GridCell.Tab.0.left/-131.-1057.1920.1057/0.23.1680.958@-131.-1057.1920.1057" timestamp="1597186306760" />
+    <state width="1638" height="158" key="GridCell.Tab.0.left/-131.-1057.1920.1057/0.23.1680.958@0.23.1680.958" timestamp="1595458360793" />
+    <state width="1638" height="292" key="GridCell.Tab.0.left/-131.-1057.1920.1057/0.23.1680.960@-131.-1057.1920.1057" timestamp="1597197521894" />
+    <state width="1638" height="158" key="GridCell.Tab.0.left/-131.-1057.1920.1057/0.23.1680.960@0.23.1680.960" timestamp="1595288523900" />
+    <state width="1638" height="74" key="GridCell.Tab.0.left/-131.-1057.1920.1057/0.23.1680.961@0.23.1680.961" timestamp="1595022681392" />
+    <state width="1638" height="153" key="GridCell.Tab.0.left/-131.-1057.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1595025126679" />
+    <state width="1638" height="162" key="GridCell.Tab.0.left/-131.-1057.1920.1057/0.23.1680.965@0.23.1680.965" timestamp="1594779194938" />
+    <state width="1638" height="257" key="GridCell.Tab.0.left/-131.-1057.1920.1057/0.23.1680.966@0.23.1680.966" timestamp="1594708694427" />
+    <state width="1638" height="257" key="GridCell.Tab.0.left/-131.-1057.1920.1057/0.23.1680.967@0.23.1680.967" timestamp="1594708079733" />
+    <state width="1638" height="158" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1595459204646" />
+    <state width="1638" height="258" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1594684163852" />
+    <state width="1638" height="292" key="GridCell.Tab.0.right" timestamp="1597197521895">
+      <screen x="-131" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="292" key="GridCell.Tab.0.right/-131.-1057.1920.1057/0.23.1680.956@0.23.1680.956" timestamp="1596676594014" />
+    <state width="1638" height="292" key="GridCell.Tab.0.right/-131.-1057.1920.1057/0.23.1680.958@-131.-1057.1920.1057" timestamp="1597186306761" />
+    <state width="1638" height="158" key="GridCell.Tab.0.right/-131.-1057.1920.1057/0.23.1680.958@0.23.1680.958" timestamp="1595458360794" />
+    <state width="1638" height="292" key="GridCell.Tab.0.right/-131.-1057.1920.1057/0.23.1680.960@-131.-1057.1920.1057" timestamp="1597197521895" />
+    <state width="1638" height="158" key="GridCell.Tab.0.right/-131.-1057.1920.1057/0.23.1680.960@0.23.1680.960" timestamp="1595288523901" />
+    <state width="1638" height="74" key="GridCell.Tab.0.right/-131.-1057.1920.1057/0.23.1680.961@0.23.1680.961" timestamp="1595022681393" />
+    <state width="1638" height="153" key="GridCell.Tab.0.right/-131.-1057.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1595025126680" />
+    <state width="1638" height="162" key="GridCell.Tab.0.right/-131.-1057.1920.1057/0.23.1680.965@0.23.1680.965" timestamp="1594779194939" />
+    <state width="1638" height="257" key="GridCell.Tab.0.right/-131.-1057.1920.1057/0.23.1680.966@0.23.1680.966" timestamp="1594708694428" />
+    <state width="1638" height="257" key="GridCell.Tab.0.right/-131.-1057.1920.1057/0.23.1680.967@0.23.1680.967" timestamp="1594708079734" />
+    <state width="1638" height="158" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1595459204646" />
+    <state width="1638" height="258" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1594684163853" />
+    <state width="1638" height="158" key="GridCell.Tab.1.bottom" timestamp="1595459204647">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1638" height="158" key="GridCell.Tab.1.bottom/-131.-1057.1920.1057/0.23.1680.958@0.23.1680.958" timestamp="1595458360796" />
+    <state width="1638" height="158" key="GridCell.Tab.1.bottom/-131.-1057.1920.1057/0.23.1680.960@0.23.1680.960" timestamp="1595288523902" />
+    <state width="1638" height="178" key="GridCell.Tab.1.bottom/-131.-1057.1920.1057/0.23.1680.961@0.23.1680.961" timestamp="1594839114239" />
+    <state width="1638" height="153" key="GridCell.Tab.1.bottom/-131.-1057.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1595025126681" />
+    <state width="1638" height="162" key="GridCell.Tab.1.bottom/-131.-1057.1920.1057/0.23.1680.965@0.23.1680.965" timestamp="1594779194941" />
+    <state width="1638" height="257" key="GridCell.Tab.1.bottom/-131.-1057.1920.1057/0.23.1680.966@0.23.1680.966" timestamp="1594708694430" />
+    <state width="1638" height="158" key="GridCell.Tab.1.bottom/0.23.1680.961@0.23.1680.961" timestamp="1595459204647" />
+    <state width="1638" height="258" key="GridCell.Tab.1.bottom/0.23.1680.965@0.23.1680.965" timestamp="1594684163854" />
+    <state width="1638" height="158" key="GridCell.Tab.1.center" timestamp="1595459204647">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1638" height="158" key="GridCell.Tab.1.center/-131.-1057.1920.1057/0.23.1680.958@0.23.1680.958" timestamp="1595458360795" />
+    <state width="1638" height="158" key="GridCell.Tab.1.center/-131.-1057.1920.1057/0.23.1680.960@0.23.1680.960" timestamp="1595288523901" />
+    <state width="1638" height="178" key="GridCell.Tab.1.center/-131.-1057.1920.1057/0.23.1680.961@0.23.1680.961" timestamp="1594839114238" />
+    <state width="1638" height="153" key="GridCell.Tab.1.center/-131.-1057.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1595025126680" />
+    <state width="1638" height="162" key="GridCell.Tab.1.center/-131.-1057.1920.1057/0.23.1680.965@0.23.1680.965" timestamp="1594779194940" />
+    <state width="1638" height="257" key="GridCell.Tab.1.center/-131.-1057.1920.1057/0.23.1680.966@0.23.1680.966" timestamp="1594708694429" />
+    <state width="1638" height="158" key="GridCell.Tab.1.center/0.23.1680.961@0.23.1680.961" timestamp="1595459204647" />
+    <state width="1638" height="258" key="GridCell.Tab.1.center/0.23.1680.965@0.23.1680.965" timestamp="1594684163854" />
+    <state width="1638" height="158" key="GridCell.Tab.1.left" timestamp="1595459204646">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1638" height="158" key="GridCell.Tab.1.left/-131.-1057.1920.1057/0.23.1680.958@0.23.1680.958" timestamp="1595458360795" />
+    <state width="1638" height="158" key="GridCell.Tab.1.left/-131.-1057.1920.1057/0.23.1680.960@0.23.1680.960" timestamp="1595288523901" />
+    <state width="1638" height="178" key="GridCell.Tab.1.left/-131.-1057.1920.1057/0.23.1680.961@0.23.1680.961" timestamp="1594839114238" />
+    <state width="1638" height="153" key="GridCell.Tab.1.left/-131.-1057.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1595025126680" />
+    <state width="1638" height="162" key="GridCell.Tab.1.left/-131.-1057.1920.1057/0.23.1680.965@0.23.1680.965" timestamp="1594779194940" />
+    <state width="1638" height="257" key="GridCell.Tab.1.left/-131.-1057.1920.1057/0.23.1680.966@0.23.1680.966" timestamp="1594708694429" />
+    <state width="1638" height="158" key="GridCell.Tab.1.left/0.23.1680.961@0.23.1680.961" timestamp="1595459204646" />
+    <state width="1638" height="258" key="GridCell.Tab.1.left/0.23.1680.965@0.23.1680.965" timestamp="1594684163853" />
+    <state width="1638" height="158" key="GridCell.Tab.1.right" timestamp="1595459204647">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1638" height="158" key="GridCell.Tab.1.right/-131.-1057.1920.1057/0.23.1680.958@0.23.1680.958" timestamp="1595458360796" />
+    <state width="1638" height="158" key="GridCell.Tab.1.right/-131.-1057.1920.1057/0.23.1680.960@0.23.1680.960" timestamp="1595288523901" />
+    <state width="1638" height="178" key="GridCell.Tab.1.right/-131.-1057.1920.1057/0.23.1680.961@0.23.1680.961" timestamp="1594839114239" />
+    <state width="1638" height="153" key="GridCell.Tab.1.right/-131.-1057.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1595025126680" />
+    <state width="1638" height="162" key="GridCell.Tab.1.right/-131.-1057.1920.1057/0.23.1680.965@0.23.1680.965" timestamp="1594779194940" />
+    <state width="1638" height="257" key="GridCell.Tab.1.right/-131.-1057.1920.1057/0.23.1680.966@0.23.1680.966" timestamp="1594708694430" />
+    <state width="1638" height="158" key="GridCell.Tab.1.right/0.23.1680.961@0.23.1680.961" timestamp="1595459204647" />
+    <state width="1638" height="258" key="GridCell.Tab.1.right/0.23.1680.965@0.23.1680.965" timestamp="1594684163854" />
+    <state x="341" y="140" key="SettingsEditor" timestamp="1595274135005">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="341" y="140" key="SettingsEditor/-131.-1057.1920.1057/0.23.1680.958@0.23.1680.958" timestamp="1595274135005" />
+    <state x="594" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596671874714">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="594" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog/-131.-1057.1920.1057/0.23.1680.956@0.23.1680.956" timestamp="1596671874714" />
+    <state x="594" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog/-131.-1057.1920.1057/0.23.1680.961@0.23.1680.961" timestamp="1594773377958" />
+    <state x="594" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog/-131.-1057.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1594957212862" />
+    <state x="272" y="122" key="new project wizard" timestamp="1596864607445">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="272" y="122" key="new project wizard/0.23.1680.956@0.23.1680.956" timestamp="1596860572326" />
+    <state x="272" y="122" key="new project wizard/0.23.1680.958@0.23.1680.958" timestamp="1596864607445" />
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1594705041131">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/-131.-1057.1920.1057/0.23.1680.965@0.23.1680.965" timestamp="1594705041131" />
+  </component>
+</project>

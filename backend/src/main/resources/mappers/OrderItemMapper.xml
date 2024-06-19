@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.esbteam.fleamarket.dao.OrderItemMapper">
+  <resultMap id="BaseResultMap" type="com.esbteam.fleamarket.pojo.OrderItem">
+    <id column="item_id" jdbcType="VARCHAR" property="itemId" />
+    <result column="order_id" jdbcType="VARCHAR" property="orderId" />
+    <result column="product_id" jdbcType="VARCHAR" property="productId" />
+    <result column="seller_id" jdbcType="VARCHAR" property="sellerId" />
+    <result column="seller_username" jdbcType="VARCHAR" property="sellerUsername" />
+    <result column="seller_phone" jdbcType="VARCHAR" property="sellerPhone" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="current_unit_price" jdbcType="DECIMAL" property="currentUnitPrice" />
+    <result column="product_quantity" jdbcType="INTEGER" property="productQuantity" />
+    <result column="product_image" jdbcType="VARCHAR" property="productImage" />
+    <result column="total_price" jdbcType="DECIMAL" property="totalPrice" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    item_id, order_id, product_id, seller_id, seller_username, seller_phone, product_name, 
+    current_unit_price, product_quantity, product_image, total_price, create_time, update_time
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from order_item
+    where item_id = #{itemId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from order_item
+    where item_id = #{itemId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.esbteam.fleamarket.pojo.OrderItem">
+    insert into order_item (item_id, order_id, product_id, 
+      seller_id, seller_username, seller_phone, 
+      product_name, current_unit_price, product_quantity, 
+      product_image, total_price, create_time,
+      update_time)
+    values (#{itemId,jdbcType=VARCHAR}, #{orderId,jdbcType=VARCHAR}, #{productId,jdbcType=VARCHAR}, 
+      #{sellerId,jdbcType=VARCHAR}, #{sellerUsername,jdbcType=VARCHAR}, #{sellerPhone,jdbcType=VARCHAR}, 
+      #{productName,jdbcType=VARCHAR}, #{currentUnitPrice,jdbcType=DECIMAL}, #{productQuantity,jdbcType=INTEGER}, 
+      #{productImage,jdbcType=VARCHAR}, #{totalPrice,jdbcType=DECIMAL}, #{createTime,jdbcType=TIMESTAMP},
+      #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.esbteam.fleamarket.pojo.OrderItem">
+    insert into order_item
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="itemId != null">
+        item_id,
+      </if>
+      <if test="orderId != null">
+        order_id,
+      </if>
+      <if test="productId != null">
+        product_id,
+      </if>
+      <if test="sellerId != null">
+        seller_id,
+      </if>
+      <if test="sellerUsername != null">
+        seller_username,
+      </if>
+      <if test="sellerPhone != null">
+        seller_phone,
+      </if>
+      <if test="productName != null">
+        product_name,
+      </if>
+      <if test="currentUnitPrice != null">
+        current_unit_price,
+      </if>
+      <if test="productQuantity != null">
+        product_quantity,
+      </if>
+      <if test="productImage != null">
+        product_image,
+      </if>
+      <if test="totalPrice != null">
+        total_price,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="itemId != null">
+        #{itemId,jdbcType=VARCHAR},
+      </if>
+      <if test="orderId != null">
+        #{orderId,jdbcType=VARCHAR},
+      </if>
+      <if test="productId != null">
+        #{productId,jdbcType=VARCHAR},
+      </if>
+      <if test="sellerId != null">
+        #{sellerId,jdbcType=VARCHAR},
+      </if>
+      <if test="sellerUsername != null">
+        #{sellerUsername,jdbcType=VARCHAR},
+      </if>
+      <if test="sellerPhone != null">
+        #{sellerPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="productName != null">
+        #{productName,jdbcType=VARCHAR},
+      </if>
+      <if test="currentUnitPrice != null">
+        #{currentUnitPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="productQuantity != null">
+        #{productQuantity,jdbcType=INTEGER},
+      </if>
+      <if test="productImage != null">
+        #{productImage,jdbcType=VARCHAR},
+      </if>
+      <if test="totalPrice != null">
+        #{totalPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.esbteam.fleamarket.pojo.OrderItem">
+    update order_item
+    <set>
+      <if test="orderId != null">
+        order_id = #{orderId,jdbcType=VARCHAR},
+      </if>
+      <if test="productId != null">
+        product_id = #{productId,jdbcType=VARCHAR},
+      </if>
+      <if test="sellerId != null">
+        seller_id = #{sellerId,jdbcType=VARCHAR},
+      </if>
+      <if test="sellerUsername != null">
+        seller_username = #{sellerUsername,jdbcType=VARCHAR},
+      </if>
+      <if test="sellerPhone != null">
+        seller_phone = #{sellerPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="productName != null">
+        product_name = #{productName,jdbcType=VARCHAR},
+      </if>
+      <if test="currentUnitPrice != null">
+        current_unit_price = #{currentUnitPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="productQuantity != null">
+        product_quantity = #{productQuantity,jdbcType=INTEGER},
+      </if>
+      <if test="productImage != null">
+        product_image = #{productImage,jdbcType=VARCHAR},
+      </if>
+      <if test="totalPrice != null">
+        total_price = #{totalPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where item_id = #{itemId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.esbteam.fleamarket.pojo.OrderItem">
+    update order_item
+    set order_id = #{orderId,jdbcType=VARCHAR},
+      product_id = #{productId,jdbcType=VARCHAR},
+      seller_id = #{sellerId,jdbcType=VARCHAR},
+      seller_username = #{sellerUsername,jdbcType=VARCHAR},
+      seller_phone = #{sellerPhone,jdbcType=VARCHAR},
+      product_name = #{productName,jdbcType=VARCHAR},
+      current_unit_price = #{currentUnitPrice,jdbcType=DECIMAL},
+      product_quantity = #{productQuantity,jdbcType=INTEGER},
+      product_image = #{productImage,jdbcType=VARCHAR},
+      total_price = #{totalPrice,jdbcType=DECIMAL},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where item_id = #{itemId,jdbcType=VARCHAR}
+  </update>
+
+  <insert id="batchInsert" parameterType="list">
+    insert into order_item (item_id, order_id, product_id,
+      seller_id, seller_username, seller_phone,
+      product_name, current_unit_price, product_quantity,
+      product_image, total_price)
+    values
+    <foreach collection="orderItemList" index="index" item="item" separator=",">
+      (
+      #{item.itemId},
+      #{item.orderId},
+      #{item.productId},
+      #{item.sellerId},
+      #{item.sellerUsername},
+      #{item.sellerPhone},
+      #{item.productName},
+      #{item.currentUnitPrice},
+      #{item.productQuantity},
+      #{item.productImage},
+      #{item.totalPrice}
+      )
+    </foreach>
+  </insert>
+
+  <select id="selectByOrderIdSet" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from order_item
+    <where>
+      <if test="orderIdSet.size() > 0">
+        order_id in
+        <foreach collection="orderIdSet" index="index" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+      </if>
+    </where>
+  </select>
+</mapper>
